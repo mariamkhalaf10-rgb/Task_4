@@ -61,6 +61,7 @@ beforeAll(async () => {
     createdPerkIds.add(seededPerk._id);
   }
 
+  //storage box
   global.__TEST_CONTEXT__ = {
     baseUrl: apiBaseUrl,
     credentials,
